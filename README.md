@@ -18,7 +18,7 @@ In a nutshell, a recommender system will be built to recommend the retail items 
 
 ## Contents
 ---
-- [Data Collection](##Data-Collection)
+- [Data Collection](#Data-Collection)
 - [Data Cleaning and EDA](#Data-Cleaning-and-EDA)
 - [K-Means Clustering using RFM](#K-Means-Clustering-using-RFM)
 - [Recommender System](#Recommender-System)
