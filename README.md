@@ -1,10 +1,10 @@
 # Project: Introducing Data Science into Traditional Retail Organization
 
-## Introduction:
+## Introduction
 ---
 This project paints a scenario in a traditional retail company where the management committee is aiming to transit the company into a more data-driven organization by building an internal team to consistently conduct market research on their customers and products. As part of the newly created Data Science team, our first objective is to get managements' buy-in on the importance of building internal data science capabilities to main their support and commitment for further Data Science projects. We intend to achieve this by being more results-oriented in the initial phase of the project.
 
-## Problem Statement:
+## Problem Statement
 Despite positive customer reviews gathered by the marketing team, this has not led to an increase in customer growth, it could be attributed towards a shift in data adoption by other retail companies.
 
 Below are the main deliverables that we aim to achieve with the marketing team (business users):
@@ -18,10 +18,10 @@ In a nutshell, a recommender system will be built to recommend the retail items 
 
 ## Contents
 ---
-- [Executive Summary](#Executive-Summary)
-- [Data Collection](#Data-Collection)
+- [Data Collection](##Data-Collection)
 - [Data Cleaning and EDA](#Data-Cleaning-and-EDA)
-- [Preprocessing and Modeling](#Preprocessing-and-Modeling)
+- [K-Means Clustering using RFM](#K-Means-Clustering-using-RFM)
+- [Recommender System](#Recommender-System)
 - [Conclusion and Recommendations](#Conclusion-and-Recommendations)
 
 ## Data Collection
@@ -52,11 +52,13 @@ In the `Part 1: Data Cleaning and EDA` of the project, the following tasks were 
 
 ### Top 10 Items by Transactions
 These are the top 10 items by transaction count. 
-![](https://git.generalassemb.ly/davechua/project_3/blob/master/images/top_word.PNG)
+
+![](https://github.com/davechua/capstone_dsi21/blob/main/image/top10items.PNG)
     
 ### Transaction Volume by Month
 Clearly, this is a retail dataset whereby we see higher sales volume in Q4 (festive season)
-![](https://git.generalassemb.ly/davechua/project_3/blob/master/images/top_word.PNG)
+
+![](https://github.com/davechua/capstone_dsi21/blob/main/image/salesbymonth.PNG)
 
 ## K-Means Clustering using RFM
 ---
@@ -64,11 +66,13 @@ In the `Part 2: RFM K Means Clustering` of the project, K Means Clustering was p
 
 ### Dendrogram
 Dendrogram was used to have a general sense of how many clusters are there.
-![](https://git.generalassemb.ly/davechua/project_3/blob/master/images/sentiment_dist.PNG)
+
+![](https://github.com/davechua/capstone_dsi21/blob/main/image/dendro.PNG)
 
 ### 3-D Scatterplot 
 Below is a 3D scatterplot of log_r, log_f, and log_m with 4 Clusters.
-![](https://git.generalassemb.ly/davechua/project_3/blob/master/images/sentiment_dist.PNG)
+
+![](https://github.com/davechua/capstone_dsi21/blob/main/image/3dcube.PNG)
 
 ### 2-D Pairplot
 Below is a 2D pairplot of log_r, log_f, and log_m with 4 Clusters. 
@@ -78,16 +82,16 @@ Cluster 2: 'Lost Customers'
 Cluster 3: 'Lost Customers with high spending'
 Cluster 4: 'Important Customers'
 
-![](https://git.generalassemb.ly/davechua/project_3/blob/master/images/sentiment_dist.PNG)
+![](https://github.com/davechua/capstone_dsi21/blob/main/image/pairplot.PNG)
 
 ## Recommender System
 ---
 In the `Part 3: Recommender System` of the project, both the User-Based and Item-Based Collborative Filtering were performed. 
 - For the user-based collaborative filtering, segmentation were used to seggregate the customers into a more targeted way.
 
-A recommender system is the call to action, whereby we should be able to achieve some results in terms of sales volume.
+A recommender system is the "call-to-action", whereby we should be able to achieve some results in terms of sales volume. This would then be more impactful for all the users across the organization.
 
-## Conclusion and Recommendations
+## Conclusion and Recommendation
 ---
 Building an internal Data Science team should be simple as many of the machine learning techniques could be found online, working together as an organization is probably the most important factor for a successful implementation. In a data science project, a clear business objective has to be set right from the start. This allows the project to be more productive and results-oriented. The modeling can be enhanced along the way. The stakeholder support and commitment is very important, the project has to be realistic and reap tangible results in small steps. A diverse team of domain experts (such as the marketers) are important to help in the modeling process. 
 
