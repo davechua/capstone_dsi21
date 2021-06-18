@@ -8,7 +8,7 @@ This project paints a scenario in a traditional retail company where the managem
 Despite positive customer reviews gathered by the marketing team, this has not led to an increase in customer growth, it could be attributed towards a shift in data adoption by other retail companies.
 
 Below are the main deliverables that we aim to achieve with the marketing team (business users):
-- To explore and enhance upon the customer segmentation beyound the current methodlogy of using RFM Analysis.
+- To explore and enhance upon the customer segmentation beyond the current methodlogy of using RFM Analysis.
     - An unsupervised machine learning technique would be used to perform clustering using K-Means.
 
 - To uncover insights and recommend suitable products to our customers.
@@ -95,7 +95,7 @@ A recommender system is the "call-to-action", whereby we should be able to achie
 ---
 Building an internal Data Science team should be simple as many of the machine learning techniques could be found online, working together as an organization is probably the most important factor for a successful implementation. In a data science project, a clear business objective has to be set right from the start. This allows the project to be more productive and results-oriented. The modeling can be enhanced along the way. The stakeholder support and commitment is very important, the project has to be realistic and reap tangible results in small steps. A diverse team of domain experts (such as the marketers) are important to help in the modeling process. 
 
-For the start, this project should be able to let the marketing team understand more about the customers' behaviour as a cluster, this should help them in formulating a more informed marketing strategy to reach out to the various clusters of customers.
+For the start, this project should be able to let the marketing team understand more about the customers' behaviour as a cluster, this should help them in formulating a more informed marketing strategy to reach out to the various groups of customers.
 
 More data could be gathered to form a better clustering technique, such as the customers' demographic. More data is also needed to help to improve the recommender system. A/B testing should be performed to further evaluate the recommender system. 
 
