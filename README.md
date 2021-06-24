@@ -12,7 +12,7 @@ Below are the main deliverables that we aim to achieve with the marketing team (
     - An unsupervised machine learning technique would be used to perform clustering using K-Means.
 
 - To uncover insights and recommend suitable products to our customers.
-    - Developing a recommender system based on collaborative filtering with insights from the customer clustering performed.
+    - Develop a recommender system based on collaborative filtering with insights from the customer clustering performed.
 
 In a nutshell, a recommender system will be built to recommend the retail items that buyers often purchase together. This is a multi-label classification problem whereby the model performance will be guided by in house Hit-Rate as success metrics. The implementation of this recommender system would bring value to the marketing team and hence lend towards achieving our first objective of getting managements' buy-in on the importance of Data Science.
 
